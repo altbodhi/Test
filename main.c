@@ -3,7 +3,10 @@
 
 int main(){
 	int i = 0;
-	while(i<100)
+	int max = 0;
+	printf("max = ");
+	scanf("%d",&max);
+	while(i<max)
 		printf("%d\t",i++);
 	
 
