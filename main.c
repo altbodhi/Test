@@ -1,8 +1,11 @@
 #include <stdio.h>
-//#include <conio.h>
+
 
 int main(){
-	printf("hello");
-	scanf("\n");
+	int i = 0;
+	while(i<100)
+		printf("%d\t",i++);
+	
+
 	return 0;
 }
